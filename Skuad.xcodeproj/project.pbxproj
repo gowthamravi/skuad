@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		412557B331737C3689219CE5 /* Pods_SkuadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771FBE27FBF9A66C31EF178B /* Pods_SkuadTests.framework */; };
 		7D5531E62535E053004A1228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5531E52535E053004A1228 /* AppDelegate.swift */; };
-		7D5531EA2535E053004A1228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5531E92535E053004A1228 /* ViewController.swift */; };
+		7D5531EA2535E053004A1228 /* PixabayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5531E92535E053004A1228 /* PixabayViewController.swift */; };
 		7D5531ED2535E053004A1228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5531EB2535E053004A1228 /* Main.storyboard */; };
 		7D5531EF2535E056004A1228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5531EE2535E056004A1228 /* Assets.xcassets */; };
 		7D5531F22535E056004A1228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5531F02535E056004A1228 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,9 @@
 		7D5532082535E057004A1228 /* SkuadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5532072535E057004A1228 /* SkuadUITests.swift */; };
 		7D55321925386F89004A1228 /* ListModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55321825386F88004A1228 /* ListModelClass.swift */; };
 		7D55321B253872D5004A1228 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55321A253872D5004A1228 /* Constant.swift */; };
+		7D55321D253A0A9C004A1228 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55321C253A0A9C004A1228 /* CollectionViewCell.swift */; };
+		7D55321F253A0AE2004A1228 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55321E253A0AE2004A1228 /* Services.swift */; };
+		7D553221253A0B6A004A1228 /* PixabayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D553220253A0B6A004A1228 /* PixabayViewModel.swift */; };
 		934FB5201DAD72AEDE4899A5 /* Pods_Skuad_SkuadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76717CA2F8F29518ABB3EC /* Pods_Skuad_SkuadUITests.framework */; };
 		DAA891B0A56085FA29005ADA /* Pods_Skuad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED7A6AA9C0DD49F927B3A91 /* Pods_Skuad.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +51,7 @@
 		771FBE27FBF9A66C31EF178B /* Pods_SkuadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkuadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5531E22535E053004A1228 /* Skuad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skuad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5531E52535E053004A1228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D5531E92535E053004A1228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D5531E92535E053004A1228 /* PixabayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayViewController.swift; sourceTree = "<group>"; };
 		7D5531EC2535E053004A1228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D5531EE2535E056004A1228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5531F12535E056004A1228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +64,9 @@
 		7D5532092535E057004A1228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D55321825386F88004A1228 /* ListModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelClass.swift; sourceTree = "<group>"; };
 		7D55321A253872D5004A1228 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7D55321C253A0A9C004A1228 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7D55321E253A0AE2004A1228 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		7D553220253A0B6A004A1228 /* PixabayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayViewModel.swift; sourceTree = "<group>"; };
 		8175864C3DAF61E6D4595BBB /* Pods-Skuad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skuad.debug.xcconfig"; path = "Target Support Files/Pods-Skuad/Pods-Skuad.debug.xcconfig"; sourceTree = "<group>"; };
 		E035FA11CCF905429D372F35 /* Pods-Skuad-SkuadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skuad-SkuadUITests.debug.xcconfig"; path = "Target Support Files/Pods-Skuad-SkuadUITests/Pods-Skuad-SkuadUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +109,6 @@
 				5FC36DB00B1191841E04335E /* Pods-SkuadTests.debug.xcconfig */,
 				1B62DD5BF79BADA3F4743ACC /* Pods-SkuadTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,8 +138,11 @@
 			isa = PBXGroup;
 			children = (
 				7D5531E52535E053004A1228 /* AppDelegate.swift */,
-				7D5531E92535E053004A1228 /* ViewController.swift */,
+				7D5531E92535E053004A1228 /* PixabayViewController.swift */,
+				7D55321C253A0A9C004A1228 /* CollectionViewCell.swift */,
 				7D55321A253872D5004A1228 /* Constant.swift */,
+				7D55321E253A0AE2004A1228 /* Services.swift */,
+				7D553220253A0B6A004A1228 /* PixabayViewModel.swift */,
 				7D55321825386F88004A1228 /* ListModelClass.swift */,
 				7D5531EB2535E053004A1228 /* Main.storyboard */,
 				7D5531EE2535E056004A1228 /* Assets.xcassets */,
@@ -411,8 +419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D553221253A0B6A004A1228 /* PixabayViewModel.swift in Sources */,
+				7D55321D253A0A9C004A1228 /* CollectionViewCell.swift in Sources */,
+				7D55321F253A0AE2004A1228 /* Services.swift in Sources */,
 				7D55321925386F89004A1228 /* ListModelClass.swift in Sources */,
-				7D5531EA2535E053004A1228 /* ViewController.swift in Sources */,
+				7D5531EA2535E053004A1228 /* PixabayViewController.swift in Sources */,
 				7D5531E62535E053004A1228 /* AppDelegate.swift in Sources */,
 				7D55321B253872D5004A1228 /* Constant.swift in Sources */,
 			);

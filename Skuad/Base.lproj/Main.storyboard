@@ -11,7 +11,7 @@
         <!--Pixabay-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Skuad" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PixabayViewController" customModule="Skuad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +19,9 @@
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="HoJ-3y-CLT">
                                 <rect key="frame" x="0.0" y="88" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="P5p-bc-O21"/>
+                                </connections>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Gvb-XM-nop">
                                 <rect key="frame" x="0.0" y="144" width="414" height="718"/>
@@ -30,12 +33,23 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TUd-eI-G1W">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TUd-eI-G1W" customClass="MainCollectionView" customModule="Skuad" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lSg-Tx-zFG">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rcZ-fo-05y">
+                                                    <rect key="frame" x="8" y="0.0" width="120" height="128"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="rcZ-fo-05y" secondAttribute="bottom" id="1Vi-tY-0tJ"/>
+                                                <constraint firstItem="rcZ-fo-05y" firstAttribute="leading" secondItem="lSg-Tx-zFG" secondAttribute="leadingMargin" id="Bmf-9O-iY4"/>
+                                                <constraint firstAttribute="trailing" secondItem="rcZ-fo-05y" secondAttribute="trailing" id="lkn-0y-Blp"/>
+                                                <constraint firstItem="rcZ-fo-05y" firstAttribute="top" secondItem="lSg-Tx-zFG" secondAttribute="top" id="xfy-Sj-5vM"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
                                     </collectionViewCell>
                                 </cells>
@@ -58,6 +72,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Pixabay" id="0ml-lu-TQv"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Gvb-XM-nop" id="UOK-s1-8wi"/>
+                        <outlet property="searchBarView" destination="HoJ-3y-CLT" id="bZE-4Q-3B3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
