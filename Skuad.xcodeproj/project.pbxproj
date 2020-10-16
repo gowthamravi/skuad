@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412557B331737C3689219CE5 /* Pods_SkuadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771FBE27FBF9A66C31EF178B /* Pods_SkuadTests.framework */; };
 		7D5531E62535E053004A1228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5531E52535E053004A1228 /* AppDelegate.swift */; };
 		7D5531EA2535E053004A1228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5531E92535E053004A1228 /* ViewController.swift */; };
 		7D5531ED2535E053004A1228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5531EB2535E053004A1228 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		7D5532082535E057004A1228 /* SkuadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5532072535E057004A1228 /* SkuadUITests.swift */; };
 		7D55321925386F89004A1228 /* ListModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55321825386F88004A1228 /* ListModelClass.swift */; };
 		7D55321B253872D5004A1228 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D55321A253872D5004A1228 /* Constant.swift */; };
+		934FB5201DAD72AEDE4899A5 /* Pods_Skuad_SkuadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76717CA2F8F29518ABB3EC /* Pods_Skuad_SkuadUITests.framework */; };
+		DAA891B0A56085FA29005ADA /* Pods_Skuad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED7A6AA9C0DD49F927B3A91 /* Pods_Skuad.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B62DD5BF79BADA3F4743ACC /* Pods-SkuadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkuadTests.release.xcconfig"; path = "Target Support Files/Pods-SkuadTests/Pods-SkuadTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F76717CA2F8F29518ABB3EC /* Pods_Skuad_SkuadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skuad_SkuadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30064EDD7059D4159BB13F07 /* Pods-Skuad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skuad.release.xcconfig"; path = "Target Support Files/Pods-Skuad/Pods-Skuad.release.xcconfig"; sourceTree = "<group>"; };
+		5EC75FF0748D1EE2A6C5A783 /* Pods-Skuad-SkuadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skuad-SkuadUITests.release.xcconfig"; path = "Target Support Files/Pods-Skuad-SkuadUITests/Pods-Skuad-SkuadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5ED7A6AA9C0DD49F927B3A91 /* Pods_Skuad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skuad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC36DB00B1191841E04335E /* Pods-SkuadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkuadTests.debug.xcconfig"; path = "Target Support Files/Pods-SkuadTests/Pods-SkuadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		771FBE27FBF9A66C31EF178B /* Pods_SkuadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkuadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5531E22535E053004A1228 /* Skuad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skuad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5531E52535E053004A1228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D5531E92535E053004A1228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		7D5532092535E057004A1228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D55321825386F88004A1228 /* ListModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelClass.swift; sourceTree = "<group>"; };
 		7D55321A253872D5004A1228 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8175864C3DAF61E6D4595BBB /* Pods-Skuad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skuad.debug.xcconfig"; path = "Target Support Files/Pods-Skuad/Pods-Skuad.debug.xcconfig"; sourceTree = "<group>"; };
+		E035FA11CCF905429D372F35 /* Pods-Skuad-SkuadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skuad-SkuadUITests.debug.xcconfig"; path = "Target Support Files/Pods-Skuad-SkuadUITests/Pods-Skuad-SkuadUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA891B0A56085FA29005ADA /* Pods_Skuad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412557B331737C3689219CE5 /* Pods_SkuadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934FB5201DAD72AEDE4899A5 /* Pods_Skuad_SkuadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2303F73988D57B7D0641175E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8175864C3DAF61E6D4595BBB /* Pods-Skuad.debug.xcconfig */,
+				30064EDD7059D4159BB13F07 /* Pods-Skuad.release.xcconfig */,
+				E035FA11CCF905429D372F35 /* Pods-Skuad-SkuadUITests.debug.xcconfig */,
+				5EC75FF0748D1EE2A6C5A783 /* Pods-Skuad-SkuadUITests.release.xcconfig */,
+				5FC36DB00B1191841E04335E /* Pods-SkuadTests.debug.xcconfig */,
+				1B62DD5BF79BADA3F4743ACC /* Pods-SkuadTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D5531D92535E053004A1228 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				7D5531FB2535E057004A1228 /* SkuadTests */,
 				7D5532062535E057004A1228 /* SkuadUITests */,
 				7D5531E32535E053004A1228 /* Products */,
+				2303F73988D57B7D0641175E /* Pods */,
+				A8FC7BBF3CB4166DA9827BD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +162,16 @@
 			path = SkuadUITests;
 			sourceTree = "<group>";
 		};
+		A8FC7BBF3CB4166DA9827BD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED7A6AA9C0DD49F927B3A91 /* Pods_Skuad.framework */,
+				1F76717CA2F8F29518ABB3EC /* Pods_Skuad_SkuadUITests.framework */,
+				771FBE27FBF9A66C31EF178B /* Pods_SkuadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D55320C2535E057004A1228 /* Build configuration list for PBXNativeTarget "Skuad" */;
 			buildPhases = (
+				3377491D96A2CAC5ED1F3BC0 /* [CP] Check Pods Manifest.lock */,
 				7D5531DE2535E053004A1228 /* Sources */,
 				7D5531DF2535E053004A1228 /* Frameworks */,
 				7D5531E02535E053004A1228 /* Resources */,
+				82C9C9E232D8CBA926BE7CC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D55320F2535E057004A1228 /* Build configuration list for PBXNativeTarget "SkuadTests" */;
 			buildPhases = (
+				36BFA1616FD28C47C34F6C7A /* [CP] Check Pods Manifest.lock */,
 				7D5531F42535E057004A1228 /* Sources */,
 				7D5531F52535E057004A1228 /* Frameworks */,
 				7D5531F62535E057004A1228 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D5532122535E057004A1228 /* Build configuration list for PBXNativeTarget "SkuadUITests" */;
 			buildPhases = (
+				D37DF232BC2BEC5E55FE7CBD /* [CP] Check Pods Manifest.lock */,
 				7D5531FF2535E057004A1228 /* Sources */,
 				7D5532002535E057004A1228 /* Frameworks */,
 				7D5532012535E057004A1228 /* Resources */,
+				9491A1C7E9909414BB503DE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3377491D96A2CAC5ED1F3BC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skuad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36BFA1616FD28C47C34F6C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkuadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C9C9E232D8CBA926BE7CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skuad/Pods-Skuad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skuad/Pods-Skuad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skuad/Pods-Skuad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9491A1C7E9909414BB503DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skuad-SkuadUITests/Pods-Skuad-SkuadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skuad-SkuadUITests/Pods-Skuad-SkuadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skuad-SkuadUITests/Pods-Skuad-SkuadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37DF232BC2BEC5E55FE7CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skuad-SkuadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D5531DE2535E053004A1228 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		7D55320D2535E057004A1228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8175864C3DAF61E6D4595BBB /* Pods-Skuad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +603,7 @@
 		};
 		7D55320E2535E057004A1228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30064EDD7059D4159BB13F07 /* Pods-Skuad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +621,7 @@
 		};
 		7D5532102535E057004A1228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC36DB00B1191841E04335E /* Pods-SkuadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +643,7 @@
 		};
 		7D5532112535E057004A1228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B62DD5BF79BADA3F4743ACC /* Pods-SkuadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		7D5532132535E057004A1228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E035FA11CCF905429D372F35 /* Pods-Skuad-SkuadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +685,7 @@
 		};
 		7D5532142535E057004A1228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC75FF0748D1EE2A6C5A783 /* Pods-Skuad-SkuadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
