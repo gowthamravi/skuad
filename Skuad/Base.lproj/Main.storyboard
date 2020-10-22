@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pixabay-->
+        <!--Skuad-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="PixabayViewController" customModule="Skuad" customModuleProvider="target" sceneMemberID="viewController">
@@ -79,7 +79,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Pixabay" id="0ml-lu-TQv"/>
+                    <navigationItem key="navigationItem" title="Skuad" id="0ml-lu-TQv"/>
                     <connections>
                         <outlet property="collectionView" destination="Gvb-XM-nop" id="UOK-s1-8wi"/>
                         <outlet property="searchBarView" destination="HoJ-3y-CLT" id="bZE-4Q-3B3"/>
