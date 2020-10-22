@@ -111,12 +111,11 @@ extension PixabayViewController : UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedIndexPath = indexPath
-        self.perform(#selector(postNotification), with: nil, afterDelay: 0.1)
-    }
-    
-    @objc func postNotification () {
-        let photo = searchResults[selectedIndexPath!.row]
-        NotificationCenter.default.post(name: NSNotification.Name("LoadImage"), object: photo)
+        
+        let pageViewController = CarouselPageViewController()
+        pageViewController.hits = searchResults
+        pageViewController.index = indexPath.row
+        self.navigationController?.pushViewController(pageViewController, animated: true)
     }
 }
 

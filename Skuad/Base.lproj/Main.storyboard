@@ -58,7 +58,6 @@
                                         <connections>
                                             <outlet property="activityIndicator" destination="fi0-Nb-etG" id="xP4-MQ-lX3"/>
                                             <outlet property="imageView" destination="rcZ-fo-05y" id="yOE-tL-uNB"/>
-                                            <segue destination="dyo-No-ct2" kind="show" id="xV3-gB-bVa"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -108,55 +107,13 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="136.60714285714286"/>
         </scene>
-        <!--Detail View Controller-->
-        <scene sceneID="piq-Nk-6Mw">
+        <!--Carousel Page View Controller-->
+        <scene sceneID="RPt-aa-hMO">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" id="dyo-No-ct2" customClass="DetailViewController" customModule="Skuad" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="afr-RV-ZkA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBf-gm-RGV">
-                                <rect key="frame" x="0.0" y="24" width="375" height="643"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8jm-Pk-nr2">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="643"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="8jm-Pk-nr2" firstAttribute="centerY" secondItem="bBf-gm-RGV" secondAttribute="centerY" id="6gb-bZ-3h0"/>
-                                    <constraint firstItem="8jm-Pk-nr2" firstAttribute="leading" secondItem="bBf-gm-RGV" secondAttribute="leading" id="Lxc-0p-A5e"/>
-                                    <constraint firstAttribute="trailing" secondItem="8jm-Pk-nr2" secondAttribute="trailing" id="MOO-BO-fwg"/>
-                                    <constraint firstItem="8jm-Pk-nr2" firstAttribute="top" secondItem="bBf-gm-RGV" secondAttribute="top" id="MgD-5z-PxO"/>
-                                    <constraint firstAttribute="bottom" secondItem="8jm-Pk-nr2" secondAttribute="bottom" id="du8-VG-eem"/>
-                                    <constraint firstItem="8jm-Pk-nr2" firstAttribute="centerX" secondItem="bBf-gm-RGV" secondAttribute="centerX" id="w0x-qL-iEj"/>
-                                </constraints>
-                            </scrollView>
-                            <activityIndicatorView contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-Dr-9tc">
-                                <rect key="frame" x="169" y="337" width="37" height="37"/>
-                            </activityIndicatorView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="eEA-Dr-9tc" firstAttribute="centerX" secondItem="uH9-AW-nQw" secondAttribute="centerX" id="4hb-Sj-CEM"/>
-                            <constraint firstItem="eEA-Dr-9tc" firstAttribute="centerY" secondItem="uH9-AW-nQw" secondAttribute="centerY" id="7Lk-Mc-Lzx"/>
-                            <constraint firstItem="bBf-gm-RGV" firstAttribute="bottom" secondItem="uH9-AW-nQw" secondAttribute="bottom" id="fhO-TZ-7Ba"/>
-                            <constraint firstItem="bBf-gm-RGV" firstAttribute="trailing" secondItem="uH9-AW-nQw" secondAttribute="trailing" id="icJ-DL-YPz"/>
-                            <constraint firstItem="bBf-gm-RGV" firstAttribute="leading" secondItem="uH9-AW-nQw" secondAttribute="leading" id="jps-bh-vB6"/>
-                            <constraint firstItem="bBf-gm-RGV" firstAttribute="top" secondItem="uH9-AW-nQw" secondAttribute="top" constant="-20" id="vbb-kI-Gh5"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="uH9-AW-nQw"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="iBe-1r-xrx"/>
-                    <connections>
-                        <outlet property="imageView" destination="8jm-Pk-nr2" id="ahS-yC-bfZ"/>
-                        <outlet property="loaderView" destination="eEA-Dr-9tc" id="lqU-iq-MOR"/>
-                        <outlet property="scrollView" destination="bBf-gm-RGV" id="9Rw-o9-Xlq"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="X56-zZ-kn7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ur3-Uz-TH8" customClass="CarouselPageViewController" customModule="Skuad" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uJ5-qE-6jf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1999" y="151"/>
+            <point key="canvasLocation" x="1799" y="136"/>
         </scene>
     </scenes>
 </document>
