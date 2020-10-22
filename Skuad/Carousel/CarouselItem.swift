@@ -40,6 +40,7 @@ class CarouselItem: UIView,UIScrollViewDelegate {
             DispatchQueue.main.async {
                 self.imageView.af.setImage(withURL: photourl) { _ in
                     self.loaderView.stopAnimating()
+                    self.loaderView.isHidden = true
                 }
             }
         }
