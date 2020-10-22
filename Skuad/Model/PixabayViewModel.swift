@@ -9,8 +9,6 @@
 import Foundation
 import UIKit
 
-
-
 extension PixabayViewController {
     func fetchPixbay(for searchKey: String, completion: @escaping (Result<PixaBayModel, Error>) -> Void) {
         guard let escapedTerm = searchKey.addingPercentEncoding(withAllowedCharacters: CharacterSet.alphanumerics) else {

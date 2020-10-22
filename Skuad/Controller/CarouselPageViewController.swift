@@ -54,7 +54,7 @@ extension CarouselPageViewController: UIPageViewControllerDataSource {
         let previousIndex = viewControllerIndex - 1
         
         guard previousIndex >= 0 else {
-            return items.last
+            return nil
         }
         
         guard items.count > previousIndex else {
@@ -71,7 +71,7 @@ extension CarouselPageViewController: UIPageViewControllerDataSource {
         
         let nextIndex = viewControllerIndex + 1
         guard items.count != nextIndex else {
-            return items.first
+            return nil
         }
         
         guard items.count > nextIndex else {

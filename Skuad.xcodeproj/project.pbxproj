@@ -11,6 +11,7 @@
 		7D194EDE2541AE67001551A8 /* CarouselPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D194EDD2541AE67001551A8 /* CarouselPageViewController.swift */; };
 		7D194EE12541AEBC001551A8 /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D194EDF2541AEBB001551A8 /* CarouselItem.swift */; };
 		7D194EE22541AEBC001551A8 /* CarouselItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D194EE02541AEBC001551A8 /* CarouselItem.xib */; };
+		7D194EE42541B9EB001551A8 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D194EE32541B9EB001551A8 /* UserDefaults.swift */; };
 		7D5531E62535E053004A1228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5531E52535E053004A1228 /* AppDelegate.swift */; };
 		7D5531EA2535E053004A1228 /* PixabayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5531E92535E053004A1228 /* PixabayViewController.swift */; };
 		7D5531ED2535E053004A1228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5531EB2535E053004A1228 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		7D194EDD2541AE67001551A8 /* CarouselPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPageViewController.swift; sourceTree = "<group>"; };
 		7D194EDF2541AEBB001551A8 /* CarouselItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
 		7D194EE02541AEBC001551A8 /* CarouselItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselItem.xib; sourceTree = "<group>"; };
+		7D194EE32541B9EB001551A8 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		7D5531E22535E053004A1228 /* Skuad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skuad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5531E52535E053004A1228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D5531E92535E053004A1228 /* PixabayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				7D5531EE2535E056004A1228 /* Assets.xcassets */,
 				7D5531F02535E056004A1228 /* LaunchScreen.storyboard */,
 				7D5531F32535E056004A1228 /* Info.plist */,
+				7D194EE32541B9EB001551A8 /* UserDefaults.swift */,
 			);
 			path = Skuad;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				7D55321F253A0AE2004A1228 /* Services.swift in Sources */,
 				7D55321925386F89004A1228 /* ListModelClass.swift in Sources */,
 				7D5531EA2535E053004A1228 /* PixabayViewController.swift in Sources */,
+				7D194EE42541B9EB001551A8 /* UserDefaults.swift in Sources */,
 				7D5531E62535E053004A1228 /* AppDelegate.swift in Sources */,
 				7D194EE12541AEBC001551A8 /* CarouselItem.swift in Sources */,
 				7D55321B253872D5004A1228 /* Constant.swift in Sources */,

@@ -19,13 +19,13 @@ class PixabayViewController: UIViewController {
     let sectionInsets = UIEdgeInsets(top: 10.0, left:10, bottom: 10.0, right: 10.0)
     let dropDown = DropDown()
     var searchResults =  [Hits]()
-    var values = [String]()
+    let defaults = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
 
         dropDown.anchorView = searchBarView
         dropDown.bottomOffset = CGPoint(x: 0, y:(dropDown.anchorView?.plainView.bounds.height)!)
-        dropDown.dataSource = values
+        dropDown.dataSource = self.defaults.object(forKey:"SavedArray") as? [String] ?? [String]()
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             DispatchQueue.main.async {
                 self.searchBarView.text = item
@@ -47,7 +47,14 @@ class PixabayViewController: UIViewController {
                         alert.addAction(alertAction)
                         self.present(alert, animated: true, completion: nil)
                     }else{
-                        if !self.dropDown.dataSource.contains(searchText){
+                        var array = self.defaults.object(forKey:"SavedArray") as? [String] ?? [String]()
+                        if !array.contains(searchText){
+                            array.append(searchText)
+                            if array.count > 10{
+                                array.removeFirst()
+                                self.dropDown.dataSource.removeFirst()
+                            }
+                            self.defaults.set(array, forKey: "SavedArray")
                             self.dropDown.dataSource.append(searchText)
                         }
                     }
