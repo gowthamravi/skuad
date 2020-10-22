@@ -140,9 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				7D5531E52535E053004A1228 /* AppDelegate.swift */,
-				7D5531E92535E053004A1228 /* PixabayViewController.swift */,
-				7D55321C253A0A9C004A1228 /* MainCollectionView.swift */,
-				7D96761B25418479000154A7 /* DetailViewController.swift */,
+				7D8E317D254199DD007671E7 /* Controller */,
 				7D8E317A25418EE8007671E7 /* Service */,
 				7D8E317B25418EFA007671E7 /* Model */,
 				7D5531EB2535E053004A1228 /* Main.storyboard */,
@@ -187,6 +185,24 @@
 				7D55321825386F88004A1228 /* ListModelClass.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7D8E317C254199D5007671E7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7D55321C253A0A9C004A1228 /* MainCollectionView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7D8E317D254199DD007671E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D8E317C254199D5007671E7 /* Cell */,
+				7D5531E92535E053004A1228 /* PixabayViewController.swift */,
+				7D96761B25418479000154A7 /* DetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		A8FC7BBF3CB4166DA9827BD2 /* Frameworks */ = {

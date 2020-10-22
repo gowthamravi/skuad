@@ -32,7 +32,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainCollectionView" id="TUd-eI-G1W" customClass="MainCollectionViewCell" customModule="Skuad" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MainCollectionViewCell" id="TUd-eI-G1W" customClass="MainCollectionViewCell" customModule="Skuad" customModuleProvider="target">
                                         <rect key="frame" x="87.5" y="0.0" width="200" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -42,15 +42,21 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rcZ-fo-05y">
                                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                                 </imageView>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="fi0-Nb-etG">
+                                                    <rect key="frame" x="90" y="90" width="20" height="20"/>
+                                                </activityIndicatorView>
                                             </subviews>
                                         </view>
                                         <constraints>
+                                            <constraint firstItem="fi0-Nb-etG" firstAttribute="centerY" secondItem="TUd-eI-G1W" secondAttribute="centerY" id="G6Y-uU-end"/>
                                             <constraint firstItem="rcZ-fo-05y" firstAttribute="leading" secondItem="TUd-eI-G1W" secondAttribute="leading" id="IDd-ar-W9m"/>
                                             <constraint firstAttribute="bottom" secondItem="rcZ-fo-05y" secondAttribute="bottom" id="Q37-s4-AiR"/>
                                             <constraint firstItem="rcZ-fo-05y" firstAttribute="top" secondItem="TUd-eI-G1W" secondAttribute="top" id="RV0-zo-HMx"/>
                                             <constraint firstAttribute="trailing" secondItem="rcZ-fo-05y" secondAttribute="trailing" id="oaB-en-V8s"/>
+                                            <constraint firstItem="fi0-Nb-etG" firstAttribute="centerX" secondItem="TUd-eI-G1W" secondAttribute="centerX" id="rT1-x9-qaV"/>
                                         </constraints>
                                         <connections>
+                                            <outlet property="activityIndicator" destination="fi0-Nb-etG" id="xP4-MQ-lX3"/>
                                             <outlet property="imageView" destination="rcZ-fo-05y" id="yOE-tL-uNB"/>
                                             <segue destination="dyo-No-ct2" kind="show" id="xV3-gB-bVa"/>
                                         </connections>
@@ -128,7 +134,6 @@
                             </scrollView>
                             <activityIndicatorView contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-Dr-9tc">
                                 <rect key="frame" x="169" y="337" width="37" height="37"/>
-                                <color key="color" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

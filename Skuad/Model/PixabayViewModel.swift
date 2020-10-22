@@ -26,10 +26,10 @@ extension PixabayViewController {
                 {
                     completion(.success(try decoder.decode(PixaBayModel.self, from: data)))
                 } catch {
-                    let alert = UIAlertController(title: "", message: "Error Occured", preferredStyle: UIAlertController.Style.alert)
+                    let alert = UIAlertController(title: "Skuad", message: "Error Occured", preferredStyle: UIAlertController.Style.alert)
                     let alertAction = UIAlertAction(title: "Okay", style: UIAlertAction.Style.default, handler: nil)
                     alert.addAction(alertAction)
-                    alert.show(self, sender: nil)
+                    self.present(alert, animated: true, completion: nil)
                 }
             }
         })

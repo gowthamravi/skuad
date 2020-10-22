@@ -12,6 +12,7 @@ import Alamofire
 
 class MainCollectionViewCell: UICollectionViewCell {
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var activityIndicator: UIActivityIndicatorView!
 }
 
 extension UICollectionViewCell {
